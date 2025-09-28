@@ -6,6 +6,16 @@
 
 NestJS is a progressive Node.js framework for building efficient and scalable server-side applications. It uses modern JavaScript, is built with TypeScript and combines elements of OOP (Object Oriented Programming), FP (Functional Programming), and FRP (Functional Reactive Programming).
 
+## 📚 Learning RoadMap
+
+### Day 1 - NestJS Fundamentals
+- **Why NestJS?** - Understanding the benefits and use cases
+- **Nest App from Scratch** - Setting up your first NestJS application
+- **Modules** - Understanding the modular architecture
+- **Controllers** - Handling HTTP requests and responses
+- **Providers** - Dependency injection and service management
+- **Environment Configuration** - Managing app settings and secrets
+
 ## 🎯 Problems NestJS Solves Over Express.js
 
 | Feature | Express.js | NestJS |
@@ -18,6 +28,9 @@ NestJS is a progressive Node.js framework for building efficient and scalable se
 | **Code Organization** | Developer's choice | Enforced structure |
 | **Scalability** | Requires careful planning | Built for enterprise apps |
 | **Documentation** | Community-driven | Auto-generated OpenAPI/Swagger |
+
+
+
 
 ## 🏗️ Core Components of NestJS
 
@@ -133,6 +146,89 @@ nest g res resourceName
 # Microservice (non-HTTP)
 # WebSocket gateway
 ```
+
+## ⚡ NestJS CLI Shortcuts & Commands
+
+### 🏗️ Project Creation
+```bash
+# Create new NestJS project
+nest new project-name
+
+# Check NestJS CLI version
+nest --version
+
+# Get help with all available commands
+nest --help
+```
+
+### 📦 Module Commands
+```bash
+# Create a new module
+nest g mo module-name
+
+# Example: Create users module
+nest g mo users
+```
+
+### 🎮 Controller Commands
+```bash
+# Create a new controller
+nest g co controller-name
+
+# Example: Create users controller
+nest g co users
+```
+
+### 🛠️ Service Commands
+```bash
+# Create a new service
+nest g s service-name
+
+# Example: Create users service
+nest g s users
+```
+### 🚀 Complete Resource Generation
+```bash
+# Generate complete CRUD resource (module + controller + service)
+nest g res resource-name
+
+# Example: Generate complete users resource
+nest g res users
+```
+
+### 🔧 Other Useful Commands
+```bash
+# Generate guard
+nest g gu guard-name
+
+# Generate interceptor
+nest g interceptor interceptor-name
+
+# Generate pipe
+nest g pipe pipe-name
+
+# Generate middleware
+nest g middleware middleware-name
+
+# Generate decorator
+nest g decorator decorator-name
+
+# Generate filter
+nest g filter filter-name
+
+# Generate gateway (WebSocket)
+nest g gateway gateway-name
+```
+
+
+
+
+
+
+
+
+
+
 
 ## 🚀 Quick Start Commands
 
