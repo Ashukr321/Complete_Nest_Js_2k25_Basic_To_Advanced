@@ -16,6 +16,13 @@ NestJS is a progressive Node.js framework for building efficient and scalable se
 - **Providers** - Dependency injection and service management
 - **Environment Configuration** - Managing app settings and secrets
 
+### Day 2 - Middlewares in the Nest js 
+- How to add middleware in the nest js 
+- Ways to add middleware in the nest js 
+- functional based approach 
+- class based approach 
+
+
 ## 🎯 Problems NestJS Solves Over Express.js
 
 | Feature | Express.js | NestJS |
