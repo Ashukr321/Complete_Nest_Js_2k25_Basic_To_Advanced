@@ -4,7 +4,7 @@ import { UserModule } from './user/user.module';
 @Module({
   imports: [
     ConfigModule.forRoot({
-      isGlobal: true,
+      isGlobal: true,//it makes available to all module 
       envFilePath:".local.env"
       // envFilePath:".prod.env"
     }),
